@@ -1,5 +1,9 @@
 # Stop Pandemic! 🦠
 
+Stop Pandemic! has been developed for Swift Student Challenge 2020 by Deniz Karakay.
+
+## Goal
+
 Your mission is to save humanity from the contagious virus and stop the pandemic! 
 
 ## How to Play?
@@ -17,7 +21,6 @@ To have a better performance, you should click
 <img src="runoptions.png" alt="Run Options" width="20"/>
 button and disable "Enable results"!
 
-### Have fun! 🤩
 
 ##Credits:
  - Without Fear (MUSIC BY OBLIDIVM http://oblidivmmusic.blogspot.com.es/)
@@ -28,6 +31,7 @@ button and disable "Enable results"!
  - Questions and statements are from WHO (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
  
 
+### Have fun! 🤩
 
 
 
