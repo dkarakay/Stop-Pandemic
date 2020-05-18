@@ -4,7 +4,7 @@ Stop Pandemic! has been developed for Swift Student Challenge 2020 by Deniz Kara
 
 ## Goal
 
-Your mission is to save humanity from the contagious virus and stop the pandemic! 
+Your mission is to save humanity from the COVID-19 virus and stop the pandemic! 
 
 ## How to Play?
 
