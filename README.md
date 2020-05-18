@@ -23,12 +23,21 @@ button and disable "Enable results"!
 
 
 ## Credits:
- - Without Fear (MUSIC BY OBLIDIVM http://oblidivmmusic.blogspot.com.es/)
- - Success Jingle (JustInvoke)
- - Shot (mastafx)
- - OpenGameArt
- - FreeSound
- - Questions and statements are from WHO (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
+
+### Music is from OpenGameArt:
+- Without Fear (MUSIC BY OBLIDIVM http://oblidivmmusic.blogspot.com.es/)
+
+### Sound Effects are from FreeSound:
+- Success Jingle (JustInvoke)
+- Shot (mastafx)
+- Hurt (sharesynth)
+- Fail (OwlStorm)
+ 
+### The background image is from OpenGameArt
+- Space (Westbeam)
+
+### Questions and statements are from WHO
+- (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
  
 
 ### Have fun! 🤩
