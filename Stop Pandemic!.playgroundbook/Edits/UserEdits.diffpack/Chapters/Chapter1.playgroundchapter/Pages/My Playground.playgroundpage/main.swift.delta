@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ Stop Pandemic! 🦠
+ Your mission is to save humanity from the COVID-19 virus and stop the pandemic! 
+ 
+ How to Play?
+ - It is easier than your imagination 😉 
+ - You just need to clear all the viruses around the humanity which is symbolized with the emojis 🙅‍♂️🙅‍♀️
+ - Simple isn't it? However, watch out for the extra objects! 😯
+ - Some of them are going to help you to survive, but some are not! 🤯
+ - After the infection, you need to answer a question about COVID-19 🤔
+ - If you answer it correct, you get extra 50 points! 🥳
+ 
+ PLAY NOW:
+ Just click "Run My Code" button!
+ To have a better performance, you should click "Run Options" button and disable "Enable results". 
+ 
+ Have fun! 🤩
+ 
+ THANKS FOR:
+ 
+ - Without Fear (MUSIC BY OBLIDIVM http://oblidivmmusic.blogspot.com.es/)
+ - Success Jingle (JustInvoke)
+ - Shot (mastafx)
+ - OpenGameArt
+ - FreeSound
+ - Questions and statements are from WHO (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
+ 
+ 
+ */
+
+import SpriteKit
+import PlaygroundSupport
+import UIKit
+import SwiftUI
+
+let skView = SKView(frame: .zero)
+
+// Splash view of the game
+struct SplashView: View {
+    @State private var opacityAmount: Double = 1.0
+    
+    var body: some View{
+        Color.pink.overlay(
+            VStack(spacing: 20){
+                Image(uiImage: #imageLiteral(resourceName: "face-with-medical-mask_1f637.png"))
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.black, lineWidth: 4))
+                    .opacity(opacityAmount)
+                    .shadow(radius: 10)
+                    .animation(.easeInOut(duration: 1))
+                
+                Text("Welcome to Stop Pandemic!")
+                    .bold()
+                    .foregroundColor(Color.white)
+                    .opacity(opacityAmount)
+                    
+                    .font(.largeTitle)
+                    .animation(.easeInOut(duration: 1))
+                
+                Text("Your mission is to save humanity from the COVID-19 virus and stop the pandemic!")
+                    .bold()
+                    .foregroundColor(Color.white)
+                    .font(.body)
+                    .opacity(opacityAmount)
+                    .animation(.easeInOut(duration: 1))
+                
+                Button(action: { self.opacityAmount -= 1
+                    // Open the game scene
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
+                        let gameScene = GameScene(size: UIScreen.main.bounds.size)
+                        gameScene.scaleMode = .aspectFill
+                        skView.presentScene(gameScene)
+                        skView.preferredFramesPerSecond = 60
+                        UserDefaults.standard.set(7, forKey: "reset")
+                        
+                        PlaygroundPage.current.liveView = skView;
+                    }
+                    
+                })
+                {
+                    HStack{
+                        Text("Start")
+                            .bold()
+                            .font(.title)
+                    }
+                }
+                .padding(50)
+                .background(Color.green)
+                .foregroundColor(Color.white)
+                .clipShape(Circle())
+                    
+                .opacity(opacityAmount)
+                    
+                .animation(.easeInOut(duration: 1))
+                
+                
+            }
+        ).edgesIgnoringSafeArea(.all)
+    }
+}
+
+
+// Load splash scene
+PlaygroundPage.current.setLiveView(SplashView());
+
+// Full Screen View
+PlaygroundPage.current.wantsFullScreenLiveView = true
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 3705}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
