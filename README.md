@@ -33,7 +33,7 @@ button and disable "Enable results"!
 - Hurt (sharesynth)
 - Fail (OwlStorm)
  
-### The background image is from OpenGameArt
+### Background image is from OpenGameArt
 - Space (Westbeam)
 
 ### Questions and statements are from WHO
