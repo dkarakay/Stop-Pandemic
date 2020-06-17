@@ -2,6 +2,8 @@
 
 Stop Pandemic! has been developed for Swift Student Challenge 2020 by Deniz Karakay.
 
+[![](http://img.youtube.com/vi/oOy-9lieXxk/0.jpg)](http://www.youtube.com/watch?v=oOy-9lieXxk "Gameplay")
+
 ## Goal
 
 Your mission is to save humanity from the COVID-19 virus and stop the pandemic! 
