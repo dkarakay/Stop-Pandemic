@@ -2,7 +2,8 @@
 
 Stop Pandemic! has been developed for Swift Student Challenge 2020 by Deniz Karakay.
 
-[![](http://img.youtube.com/vi/oOy-9lieXxk/0.jpg)](http://www.youtube.com/watch?v=oOy-9lieXxk "Gameplay")
+## Video
+[![Video](http://img.youtube.com/vi/oOy-9lieXxk/0.jpg)](http://www.youtube.com/watch?v=oOy-9lieXxk "Gameplay")
 
 ## Goal
 
